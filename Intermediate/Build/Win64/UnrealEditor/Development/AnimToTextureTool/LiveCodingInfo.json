@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.AnimToTextureTool.cpp.obj": [
+			"AnimTextureDetails.cpp.obj",
+			"AnimToTextureCommands.cpp.obj",
+			"AnimToTextureStyle.cpp.obj",
+			"AnimToTextureTool.cpp.obj"
+		]
+	}
+}

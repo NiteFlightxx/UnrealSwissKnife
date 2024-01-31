@@ -1,0 +1,22 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\development\\simdjsonapi\\module.simdjsonapi.1_of_2.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\workspace\\ueproject\\contentexamples\\intermediate\\build\\win64\\contentexampleseditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\development\\simdjsonapi\\definitions.simdjsonapi.h",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\source\\simdjsonapi\\private\\simdjson.cpp",
+            "c:\\program files\\microsoft visual studio\\2022\\enterprise\\vc\\tools\\msvc\\14.33.31629\\include\\cassert",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.18362.0\\ucrt\\assert.h",
+            "c:\\program files\\microsoft visual studio\\2022\\enterprise\\vc\\tools\\msvc\\14.33.31629\\include\\cassert",
+            "c:\\program files (x86)\\windows kits\\10\\include\\10.0.18362.0\\ucrt\\assert.h",
+            "c:\\program files\\microsoft visual studio\\2022\\enterprise\\vc\\auxiliary\\vs\\include\\cppcorecheck\\warnings.h",
+            "c:\\program files\\microsoft visual studio\\2022\\enterprise\\vc\\tools\\msvc\\14.33.31629\\include\\string_view",
+            "c:\\program files\\microsoft visual studio\\2022\\enterprise\\vc\\tools\\msvc\\14.33.31629\\include\\string",
+            "c:\\program files\\microsoft visual studio\\2022\\enterprise\\vc\\tools\\msvc\\14.33.31629\\include\\array"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

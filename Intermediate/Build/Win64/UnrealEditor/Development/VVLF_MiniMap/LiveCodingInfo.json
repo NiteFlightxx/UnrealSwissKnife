@@ -1,0 +1,19 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.VVLF_MiniMap.cpp.obj": [
+			"MiniMapComponent.gen.cpp.obj",
+			"MiniMapItemIcon.gen.cpp.obj",
+			"MiniMapSubsystem.gen.cpp.obj",
+			"VVLF_MiniMap.init.gen.cpp.obj",
+			"VVLF_MiniMapBase.gen.cpp.obj",
+			"MiniMapComponent.cpp.obj",
+			"MiniMapDetailsCustomization.cpp.obj",
+			"MiniMapItemIcon.cpp.obj",
+			"MiniMapSetBounds.cpp.obj",
+			"MiniMapSubsystem.cpp.obj",
+			"VVLF_MiniMapBase.cpp.obj",
+			"VVLF_MiniMap.cpp.obj"
+		]
+	}
+}

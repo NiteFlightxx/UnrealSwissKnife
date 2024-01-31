@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-VVLF_MiniMap-0007.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"E:\Workspace\UEProject\ContentExamples\Intermediate\Build\Win64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.obj"
+"E:\Workspace\UEProject\ContentExamples\Plugins\VVLF_MiniMap\Intermediate\Build\Win64\UnrealEditor\Development\VVLF_MiniMap\Module.VVLF_MiniMap.cpp.obj"
+"E:\Workspace\UEProject\ContentExamples\Plugins\VVLF_MiniMap\Intermediate\Build\Win64\UnrealEditor\Development\VVLF_MiniMap\Default.rc2.res"
+/OUT:"E:\Workspace\UEProject\ContentExamples\Plugins\VVLF_MiniMap\Intermediate\Build\Win64\UnrealEditor\Development\VVLF_MiniMap\UnrealEditor-VVLF_MiniMap-0007.lib"

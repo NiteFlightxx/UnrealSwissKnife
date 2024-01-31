@@ -1,0 +1,20 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\development\\devtoolkit\\module.devtoolkit.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\workspace\\ueproject\\contentexamples\\intermediate\\build\\win64\\contentexampleseditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\development\\devtoolkit\\definitions.devtoolkit.h",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\inc\\devtoolkit\\uht\\devtoolgameplaystatics.gen.cpp",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\source\\devtoolkit\\public\\devtoolgameplaystatics.h",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\inc\\devtoolkit\\uht\\devtoolgameplaystatics.generated.h",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\inc\\devtoolkit\\uht\\devtoolkit.init.gen.cpp",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\source\\devtoolkit\\private\\devtoolgameplaystatics.cpp",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\source\\devtoolkit\\private\\devtoolkit.cpp",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\source\\devtoolkit\\public\\devtoolkit.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

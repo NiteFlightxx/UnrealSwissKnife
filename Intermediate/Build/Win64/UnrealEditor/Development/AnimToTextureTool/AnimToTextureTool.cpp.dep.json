@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\source\\animtotexturetool\\private\\animtotexturetool.cpp",
+        "ProvidedModule": "",
+        "PCH": "d:\\unrealengine5.1\\engine\\intermediate\\build\\win64\\unrealeditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\development\\animtotexturetool\\definitions.animtotexturetool.h",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\source\\animtotexturetool\\public\\animtotexturetool.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

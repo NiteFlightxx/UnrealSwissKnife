@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.DevToolKit.cpp.obj": [
+			"DevToolGameplayStatics.gen.cpp.obj",
+			"DevToolKit.init.gen.cpp.obj",
+			"DevToolGameplayStatics.cpp.obj",
+			"DevToolKit.cpp.obj"
+		]
+	}
+}

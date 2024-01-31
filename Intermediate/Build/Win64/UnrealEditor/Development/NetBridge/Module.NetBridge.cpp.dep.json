@@ -1,0 +1,24 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\development\\netbridge\\module.netbridge.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\workspace\\ueproject\\contentexamples\\intermediate\\build\\win64\\contentexampleseditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\development\\netbridge\\definitions.netbridge.h",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\inc\\netbridge\\uht\\httpsubsystem.gen.cpp",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\source\\netbridge\\public\\httpsubsystem.h",
+            "d:\\ue_5.1\\engine\\source\\runtime\\online\\http\\public\\httpmodule.h",
+            "d:\\ue_5.1\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttprequest.h",
+            "d:\\ue_5.1\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpbase.h",
+            "d:\\ue_5.1\\engine\\source\\runtime\\online\\http\\public\\interfaces\\ihttpresponse.h",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\inc\\netbridge\\uht\\httpsubsystem.generated.h",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\inc\\netbridge\\uht\\netbridge.init.gen.cpp",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\source\\netbridge\\private\\httpsubsystem.cpp",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\source\\netbridge\\private\\netbridge.cpp",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\source\\netbridge\\public\\netbridge.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

@@ -1,0 +1,11 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.NetBridge.cpp.obj": [
+			"HttpSubsystem.gen.cpp.obj",
+			"NetBridge.init.gen.cpp.obj",
+			"HttpSubsystem.cpp.obj",
+			"NetBridge.cpp.obj"
+		]
+	}
+}

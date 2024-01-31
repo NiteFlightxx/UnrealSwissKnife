@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\source\\simdjson\\private\\simdjson.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\workspace\\ueproject\\contentexamples\\intermediate\\build\\win64\\contentexampleseditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\development\\simdjson\\definitions.simdjson.h",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\unrealswissknife\\source\\simdjson\\public\\simdjson.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

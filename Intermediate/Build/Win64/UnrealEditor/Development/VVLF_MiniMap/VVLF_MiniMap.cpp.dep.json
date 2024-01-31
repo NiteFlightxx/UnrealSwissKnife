@@ -1,0 +1,14 @@
+{
+    "Version": "1.1",
+    "Data": {
+        "Source": "e:\\workspace\\ueproject\\contentexamples\\plugins\\vvlf_minimap\\source\\vvlf_minimap\\private\\vvlf_minimap.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\workspace\\ueproject\\contentexamples\\intermediate\\build\\win64\\contentexampleseditor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\vvlf_minimap\\intermediate\\build\\win64\\unrealeditor\\development\\vvlf_minimap\\definitions.vvlf_minimap.h",
+            "e:\\workspace\\ueproject\\contentexamples\\plugins\\vvlf_minimap\\source\\vvlf_minimap\\public\\vvlf_minimap.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
