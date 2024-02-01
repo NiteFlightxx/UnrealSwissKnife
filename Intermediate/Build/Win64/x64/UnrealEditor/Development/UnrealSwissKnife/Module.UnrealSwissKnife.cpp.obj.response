@@ -1,6 +1,6 @@
-E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Module.UnrealSwissKnife.cpp
+E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Module.UnrealSwissKnife.cpp
 /I .
-/I E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Source\UnrealSwissKnife\Private
+/I E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Source\UnrealSwissKnife\Private
 /I Runtime\Projects\Public
 /I Runtime
 /I Runtime\TraceLog\Public
@@ -303,8 +303,8 @@ E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\W
 /I Developer\MessageLog\Public
 /I ..\Plugins\Developer\PluginUtils\Source\PluginUtils\Public
 /I ..\Plugins\Developer\PluginUtils\Source
-/I E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Source
-/I E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Source\UnrealSwissKnife\Public
+/I E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Source
+/I E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Source\UnrealSwissKnife\Public
 /I ..\Plugins\FX\Niagara\Intermediate\Build\Win64\UnrealEditor\Inc\Niagara\UHT
 /I ..\Plugins\FX\Niagara\Source\Niagara\Private
 /I ..\Plugins\FX\Niagara\Source\Niagara\Classes
@@ -322,17 +322,17 @@ E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\W
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
 /external:I ThirdParty\LibTiff\Source
-/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\INCLUDE"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"E:\UnrealProject\ContentExamples52\Intermediate\Build\Win64\x64\ContentExamples52Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
-/FI"E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Definitions.UnrealSwissKnife.h"
-/Yu"E:\UnrealProject\ContentExamples52\Intermediate\Build\Win64\x64\ContentExamples52Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"E:\UnrealProject\ContentExamples52\Intermediate\Build\Win64\x64\ContentExamples52Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Module.UnrealSwissKnife.cpp.obj"
-/sourceDependencies E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Module.UnrealSwissKnife.cpp.dep.json
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.34.31933\INCLUDE"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"E:\Workspace\UEProject\NiteFlight\Intermediate\Build\Win64\x64\NiteFlightEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_1.h"
+/FI"E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Definitions.UnrealSwissKnife.h"
+/Yu"E:\Workspace\UEProject\NiteFlight\Intermediate\Build\Win64\x64\NiteFlightEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_1.h"
+/Fp"E:\Workspace\UEProject\NiteFlight\Intermediate\Build\Win64\x64\NiteFlightEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_1.h.pch"
+/Fo"E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Module.UnrealSwissKnife.cpp.obj"
+/sourceDependencies E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Module.UnrealSwissKnife.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

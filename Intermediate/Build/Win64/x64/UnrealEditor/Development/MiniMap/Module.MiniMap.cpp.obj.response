@@ -1,6 +1,6 @@
-E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\Module.MiniMap.cpp
+E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\Module.MiniMap.cpp
 /I .
-/I E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Source\MiniMap\Private
+/I E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Source\MiniMap\Private
 /I Runtime\AppFramework\Public
 /I Runtime
 /I Runtime\TraceLog\Public
@@ -277,24 +277,24 @@ E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\W
 /I ..\Intermediate\Build\Win64\UnrealEditor\Inc\MaterialEditor\UHT
 /I Editor\MaterialEditor\Public
 /I Editor\PlacementMode\Public
-/I E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\UnrealEditor\Inc\MiniMap\UHT
-/I E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Source
-/I E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Source\MiniMap\Public
+/I E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\UnrealEditor\Inc\MiniMap\UHT
+/I E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Source
+/I E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Source\MiniMap\Public
 /external:W0
 /external:I ThirdParty\mimalloc\include
 /external:I ThirdParty\LibTiff\Source\Win64
 /external:I ThirdParty\LibTiff\Source
-/external:I "C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.36.32532\INCLUDE"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um"
-/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt"
-/FI"E:\UnrealProject\ContentExamples52\Intermediate\Build\Win64\x64\ContentExamples52Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
-/FI"E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\Definitions.MiniMap.h"
-/Yu"E:\UnrealProject\ContentExamples52\Intermediate\Build\Win64\x64\ContentExamples52Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
-/Fp"E:\UnrealProject\ContentExamples52\Intermediate\Build\Win64\x64\ContentExamples52Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.pch"
-/Fo"E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\Module.MiniMap.cpp.obj"
-/sourceDependencies E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\Module.MiniMap.cpp.dep.json
+/external:I "C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC\Tools\MSVC\14.34.31933\INCLUDE"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"E:\Workspace\UEProject\NiteFlight\Intermediate\Build\Win64\x64\NiteFlightEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_1.h"
+/FI"E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\Definitions.MiniMap.h"
+/Yu"E:\Workspace\UEProject\NiteFlight\Intermediate\Build\Win64\x64\NiteFlightEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_1.h"
+/Fp"E:\Workspace\UEProject\NiteFlight\Intermediate\Build\Win64\x64\NiteFlightEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_1.h.pch"
+/Fo"E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\Module.MiniMap.cpp.obj"
+/sourceDependencies E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\Module.MiniMap.cpp.dep.json
 /Zc:inline
 /nologo
 /Oi

@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-HLSL.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\UnrealProject\ContentExamples52\Intermediate\Build\Win64\x64\ContentExamples52Editor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_0.h.obj"
-"E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\HLSL\HLSL.cpp.obj"
-"E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\HLSL\Default.rc2.res"
-/OUT:"E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\HLSL\UnrealEditor-HLSL.lib"
+"E:\Workspace\UEProject\NiteFlight\Intermediate\Build\Win64\x64\NiteFlightEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\HLSL\HLSL.cpp.obj"
+"E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\HLSL\Default.rc2.res"
+/OUT:"E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\HLSL\UnrealEditor-HLSL.lib"

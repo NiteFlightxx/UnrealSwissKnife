@@ -5,8 +5,8 @@
 
 void FHLSLModule::StartupModule()
 {
-	const FString ProjectShaderDirectory = FPaths::Combine(FPaths::ProjectDir(), TEXT("Shaders"));
-	 AddShaderSourceDirectoryMapping(TEXT("/Shader"), ProjectShaderDirectory);
+	// const FString ProjectShaderDirectory = FPaths::Combine(FPaths::ProjectDir(), TEXT("Shaders"));
+	//  AddShaderSourceDirectoryMapping(TEXT("/Shader"), ProjectShaderDirectory);
 
 	const FString PluginShaderDirectory = FPaths::Combine(FPaths::ProjectPluginsDir(), TEXT("UnrealSwissKnife/Shaders"));
 	AddShaderSourceDirectoryMapping(TEXT("/HLSL"), PluginShaderDirectory);

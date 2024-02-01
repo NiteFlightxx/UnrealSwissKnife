@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-UnrealSwissKnife.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\UnrealProject\ContentExamples52\Intermediate\Build\Win64\x64\ContentExamples52Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.obj"
-"E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Module.UnrealSwissKnife.cpp.obj"
-"E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Default.rc2.res"
-/OUT:"E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\UnrealEditor-UnrealSwissKnife.lib"
+"E:\Workspace\UEProject\NiteFlight\Intermediate\Build\Win64\x64\NiteFlightEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Module.UnrealSwissKnife.cpp.obj"
+"E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Default.rc2.res"
+/OUT:"E:\Workspace\UEProject\NiteFlight\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\UnrealEditor-UnrealSwissKnife.lib"
