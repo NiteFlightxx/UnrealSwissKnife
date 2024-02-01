@@ -9,11 +9,24 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeDevToolGameplayStatics() {}
 // Cross Module References
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	DEVTOOLKIT_API UClass* Z_Construct_UClass_UDevToolGameplayStatics();
 	DEVTOOLKIT_API UClass* Z_Construct_UClass_UDevToolGameplayStatics_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UBlueprintFunctionLibrary();
+	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_DevToolKit();
 // End Cross Module References
+	DEFINE_FUNCTION(UDevToolGameplayStatics::execGetClosestPointsBetweenTwoComponents)
+	{
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_Comp1);
+		P_GET_OBJECT(UPrimitiveComponent,Z_Param_Comp2);
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_PA);
+		P_GET_STRUCT_REF(FVector,Z_Param_Out_PB);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		UDevToolGameplayStatics::GetClosestPointsBetweenTwoComponents(Z_Param_Comp1,Z_Param_Comp2,Z_Param_Out_PA,Z_Param_Out_PB);
+		P_NATIVE_END;
+	}
 	DEFINE_FUNCTION(UDevToolGameplayStatics::execBytesToFloatInRangePure)
 	{
 		P_GET_TARRAY_REF(uint8,Z_Param_Out_Bytes);
@@ -61,6 +74,7 @@ void EmptyLinkFunctionForGeneratedCodeDevToolGameplayStatics() {}
 			{ "BytesToFloatInRangePure", &UDevToolGameplayStatics::execBytesToFloatInRangePure },
 			{ "BytesToIntegerInRange", &UDevToolGameplayStatics::execBytesToIntegerInRange },
 			{ "BytesToIntegerInRangePure", &UDevToolGameplayStatics::execBytesToIntegerInRangePure },
+			{ "GetClosestPointsBetweenTwoComponents", &UDevToolGameplayStatics::execGetClosestPointsBetweenTwoComponents },
 			{ "IsEditor", &UDevToolGameplayStatics::execIsEditor },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
@@ -260,6 +274,67 @@ void EmptyLinkFunctionForGeneratedCodeDevToolGameplayStatics() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics
+	{
+		struct DevToolGameplayStatics_eventGetClosestPointsBetweenTwoComponents_Parms
+		{
+			UPrimitiveComponent* Comp1;
+			UPrimitiveComponent* Comp2;
+			FVector PA;
+			FVector PB;
+		};
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Comp1_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_Comp1;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_Comp2_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_Comp2;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_PA;
+		static const UECodeGen_Private::FStructPropertyParams NewProp_PB;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_Comp1_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_Comp1 = { "Comp1", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(DevToolGameplayStatics_eventGetClosestPointsBetweenTwoComponents_Parms, Comp1), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_Comp1_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_Comp1_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_Comp2_MetaData[] = {
+		{ "EditInline", "true" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_Comp2 = { "Comp2", nullptr, (EPropertyFlags)0x0010000000080080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(DevToolGameplayStatics_eventGetClosestPointsBetweenTwoComponents_Parms, Comp2), Z_Construct_UClass_UPrimitiveComponent_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_Comp2_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_Comp2_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_PA = { "PA", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(DevToolGameplayStatics_eventGetClosestPointsBetweenTwoComponents_Parms, PA), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_PB = { "PB", nullptr, (EPropertyFlags)0x0010000000000180, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(DevToolGameplayStatics_eventGetClosestPointsBetweenTwoComponents_Parms, PB), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_Comp1,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_Comp2,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_PA,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::NewProp_PB,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::Function_MetaDataParams[] = {
+		{ "Category", "UDevToolGameplayStatics" },
+		{ "ModuleRelativePath", "Public/DevToolGameplayStatics.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_UDevToolGameplayStatics, nullptr, "GetClosestPointsBetweenTwoComponents", nullptr, nullptr, sizeof(Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::DevToolGameplayStatics_eventGetClosestPointsBetweenTwoComponents_Parms), Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04C42401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_UDevToolGameplayStatics_IsEditor_Statics
 	{
 		struct DevToolGameplayStatics_eventIsEditor_Parms
@@ -284,7 +359,7 @@ void EmptyLinkFunctionForGeneratedCodeDevToolGameplayStatics() {}
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_UDevToolGameplayStatics_IsEditor_Statics::Function_MetaDataParams[] = {
-		{ "Category", "UDevToolGameplayStatics" },
+		{ "Category", "UDevToolGameplayStatics|Editor" },
 		{ "ModuleRelativePath", "Public/DevToolGameplayStatics.h" },
 	};
 #endif
@@ -321,7 +396,8 @@ void EmptyLinkFunctionForGeneratedCodeDevToolGameplayStatics() {}
 		{ &Z_Construct_UFunction_UDevToolGameplayStatics_BytesToFloatInRangePure, "BytesToFloatInRangePure" }, // 1805134999
 		{ &Z_Construct_UFunction_UDevToolGameplayStatics_BytesToIntegerInRange, "BytesToIntegerInRange" }, // 612922543
 		{ &Z_Construct_UFunction_UDevToolGameplayStatics_BytesToIntegerInRangePure, "BytesToIntegerInRangePure" }, // 2518330825
-		{ &Z_Construct_UFunction_UDevToolGameplayStatics_IsEditor, "IsEditor" }, // 3906595743
+		{ &Z_Construct_UFunction_UDevToolGameplayStatics_GetClosestPointsBetweenTwoComponents, "GetClosestPointsBetweenTwoComponents" }, // 1223396869
+		{ &Z_Construct_UFunction_UDevToolGameplayStatics_IsEditor, "IsEditor" }, // 657221075
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UDevToolGameplayStatics_Statics::Class_MetaDataParams[] = {
@@ -368,9 +444,9 @@ void EmptyLinkFunctionForGeneratedCodeDevToolGameplayStatics() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ContentExamples52_Plugins_UnrealSwissKnife_Source_DevToolKit_Public_DevToolGameplayStatics_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UDevToolGameplayStatics, UDevToolGameplayStatics::StaticClass, TEXT("UDevToolGameplayStatics"), &Z_Registration_Info_UClass_UDevToolGameplayStatics, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDevToolGameplayStatics), 114570173U) },
+		{ Z_Construct_UClass_UDevToolGameplayStatics, UDevToolGameplayStatics::StaticClass, TEXT("UDevToolGameplayStatics"), &Z_Registration_Info_UClass_UDevToolGameplayStatics, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UDevToolGameplayStatics), 625688382U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ContentExamples52_Plugins_UnrealSwissKnife_Source_DevToolKit_Public_DevToolGameplayStatics_h_2316086929(TEXT("/Script/DevToolKit"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_ContentExamples52_Plugins_UnrealSwissKnife_Source_DevToolKit_Public_DevToolGameplayStatics_h_240171582(TEXT("/Script/DevToolKit"),
 		Z_CompiledInDeferFile_FID_ContentExamples52_Plugins_UnrealSwissKnife_Source_DevToolKit_Public_DevToolGameplayStatics_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_ContentExamples52_Plugins_UnrealSwissKnife_Source_DevToolKit_Public_DevToolGameplayStatics_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);

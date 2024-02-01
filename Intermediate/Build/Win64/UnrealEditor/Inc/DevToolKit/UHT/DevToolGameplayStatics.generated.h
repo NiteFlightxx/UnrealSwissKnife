@@ -9,6 +9,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+class UPrimitiveComponent;
 #ifdef DEVTOOLKIT_DevToolGameplayStatics_generated_h
 #error "DevToolGameplayStatics.generated.h already included, missing '#pragma once' in DevToolGameplayStatics.h"
 #endif
@@ -17,6 +18,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define FID_ContentExamples52_Plugins_UnrealSwissKnife_Source_DevToolKit_Public_DevToolGameplayStatics_h_16_SPARSE_DATA
 #define FID_ContentExamples52_Plugins_UnrealSwissKnife_Source_DevToolKit_Public_DevToolGameplayStatics_h_16_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetClosestPointsBetweenTwoComponents); \
 	DECLARE_FUNCTION(execBytesToFloatInRangePure); \
 	DECLARE_FUNCTION(execBytesToIntegerInRangePure); \
 	DECLARE_FUNCTION(execBytesToIntegerInRange); \
@@ -25,6 +27,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FID_ContentExamples52_Plugins_UnrealSwissKnife_Source_DevToolKit_Public_DevToolGameplayStatics_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execGetClosestPointsBetweenTwoComponents); \
 	DECLARE_FUNCTION(execBytesToFloatInRangePure); \
 	DECLARE_FUNCTION(execBytesToIntegerInRangePure); \
 	DECLARE_FUNCTION(execBytesToIntegerInRange); \

@@ -1,12 +1,12 @@
 {
     "Version": "1.2",
     "Data": {
-        "Source": "e:\\workspace\\ueproject\\contentexamples52\\plugins\\unrealswissknife\\source\\hlsl\\private\\hlsl.cpp",
+        "Source": "e:\\unrealproject\\contentexamples52\\plugins\\unrealswissknife\\source\\hlsl\\private\\hlsl.cpp",
         "ProvidedModule": "",
-        "PCH": "e:\\workspace\\ueproject\\contentexamples52\\intermediate\\build\\win64\\x64\\contentexamples52editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
+        "PCH": "e:\\unrealproject\\contentexamples52\\intermediate\\build\\win64\\x64\\contentexamples52editor\\development\\engine\\sharedpch.engine.shadowerrors.inclorderunreal5_0.h.pch",
         "Includes": [
-            "e:\\workspace\\ueproject\\contentexamples52\\plugins\\unrealswissknife\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hlsl\\definitions.hlsl.h",
-            "e:\\workspace\\ueproject\\contentexamples52\\plugins\\unrealswissknife\\source\\hlsl\\public\\hlsl.h"
+            "e:\\unrealproject\\contentexamples52\\plugins\\unrealswissknife\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hlsl\\definitions.hlsl.h",
+            "e:\\unrealproject\\contentexamples52\\plugins\\unrealswissknife\\source\\hlsl\\public\\hlsl.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []

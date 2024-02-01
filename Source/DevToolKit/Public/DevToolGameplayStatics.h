@@ -15,7 +15,7 @@ class DEVTOOLKIT_API UDevToolGameplayStatics : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 	
-	UFUNCTION(BlueprintPure,Category=UDevToolGameplayStatics)
+	UFUNCTION(BlueprintPure,Category="UDevToolGameplayStatics|Editor")
 	static bool IsEditor();
 	
 	static bool IsLittleEndian();
@@ -28,4 +28,7 @@ class DEVTOOLKIT_API UDevToolGameplayStatics : public UBlueprintFunctionLibrary
 
 	UFUNCTION(BlueprintPure,Category=" UDevToolGameplayStatics|Serial")
 	static float BytesToFloatInRangePure(const TArray<uint8>& Bytes, int32 BeginIndex, int32 EndIndex, bool isDataBigEndian);
+
+	UFUNCTION(BlueprintCallable,Category=" UDevToolGameplayStatics")
+	static void  GetClosestPointsBetweenTwoComponents(UPrimitiveComponent* Comp1, UPrimitiveComponent* Comp2,FVector &PA,FVector&PB);
 };

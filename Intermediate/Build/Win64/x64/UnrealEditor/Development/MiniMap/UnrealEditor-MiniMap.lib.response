@@ -6,7 +6,7 @@
 /NAME:"UnrealEditor-MiniMap.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"E:\Workspace\UEProject\ContentExamples52\Intermediate\Build\Win64\x64\ContentExamples52Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.obj"
-"E:\Workspace\UEProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\Module.MiniMap.cpp.obj"
-"E:\Workspace\UEProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\Default.rc2.res"
-/OUT:"E:\Workspace\UEProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\UnrealEditor-MiniMap.lib"
+"E:\UnrealProject\ContentExamples52\Intermediate\Build\Win64\x64\ContentExamples52Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.obj"
+"E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\Module.MiniMap.cpp.obj"
+"E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\Default.rc2.res"
+/OUT:"E:\UnrealProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\MiniMap\UnrealEditor-MiniMap.lib"

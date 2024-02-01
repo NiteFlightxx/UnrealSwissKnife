@@ -1,8 +1,9 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 #include "DevToolGameplayStatics.h"
 #include <cstdint>
-#include <optional>
-#include <algorithm> 
+#include <algorithm>
+#include <Kismet/KismetSystemLibrary.h>
+#include <Kismet/KismetMathLibrary.h>
 
 
 
@@ -118,3 +119,31 @@ float UDevToolGameplayStatics::BytesToFloatInRangePure(const TArray<uint8>& Byte
 
 	return Result;
 }
+
+
+void UDevToolGameplayStatics::GetClosestPointsBetweenTwoComponents(UPrimitiveComponent* Comp1,
+	UPrimitiveComponent* Comp2, FVector& PA, FVector& PB)
+{
+	float Rad;
+	FVector Box;
+	UKismetSystemLibrary::GetComponentBounds(Comp1,PB,Box,Rad);
+
+	for (int i=0;i<64;i++)
+	{
+		FVector outp;
+		Comp2->GetClosestPointOnCollision(PB,outp);
+		float DIS=UKismetMathLibrary::Vector_Distance(outp,PA);
+		if (DIS>1)
+		{
+			PA=outp;
+			Comp1->GetClosestPointOnCollision(PA,PB);
+		}
+		else
+		{
+			break;
+		}
+	
+	}
+}
+
+

@@ -327,10 +327,10 @@ E:\Workspace\UEProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\B
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /external:I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"E:\Workspace\UEProject\ContentExamples52\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
+/FI"E:\Workspace\UEProject\ContentExamples52\Intermediate\Build\Win64\x64\ContentExamples52Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
 /FI"E:\Workspace\UEProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Definitions.UnrealSwissKnife.h"
-/Yu"E:\Workspace\UEProject\ContentExamples52\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
-/Fp"E:\Workspace\UEProject\ContentExamples52\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
+/Yu"E:\Workspace\UEProject\ContentExamples52\Intermediate\Build\Win64\x64\ContentExamples52Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h"
+/Fp"E:\Workspace\UEProject\ContentExamples52\Intermediate\Build\Win64\x64\ContentExamples52Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.InclOrderUnreal5_0.h.pch"
 /Fo"E:\Workspace\UEProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Module.UnrealSwissKnife.cpp.obj"
 /sourceDependencies E:\Workspace\UEProject\ContentExamples52\Plugins\UnrealSwissKnife\Intermediate\Build\Win64\x64\UnrealEditor\Development\UnrealSwissKnife\Module.UnrealSwissKnife.cpp.dep.json
 /Zc:inline
