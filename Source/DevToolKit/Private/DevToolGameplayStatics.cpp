@@ -146,4 +146,14 @@ void UDevToolGameplayStatics::GetClosestPointsBetweenTwoComponents(UPrimitiveCom
 	}
 }
 
+float UDevToolGameplayStatics::GetGameDuration(UWorld*World)
+{
+	const float TotalDurationSeconds = World->GetTimeSeconds(); //- GameStartTime;
+	int32 Hours = TotalDurationSeconds / 3600;
+	//int32 Minutes = (TotalDurationSeconds / 60) % 60;
+	int32 Seconds = FMath::RoundToInt(TotalDurationSeconds) % 60;
+
+	return TotalDurationSeconds;
+}
+
 

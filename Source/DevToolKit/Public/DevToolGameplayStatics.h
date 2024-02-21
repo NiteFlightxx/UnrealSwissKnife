@@ -31,4 +31,9 @@ class DEVTOOLKIT_API UDevToolGameplayStatics : public UBlueprintFunctionLibrary
 
 	UFUNCTION(BlueprintCallable,Category=" UDevToolGameplayStatics")
 	static void  GetClosestPointsBetweenTwoComponents(UPrimitiveComponent* Comp1, UPrimitiveComponent* Comp2,FVector &PA,FVector&PB);
+
+	UFUNCTION(BlueprintCallable,Category=" UDevToolGameplayStatics")
+	static float GetGameDuration(UWorld*World);
+	
+
 };
