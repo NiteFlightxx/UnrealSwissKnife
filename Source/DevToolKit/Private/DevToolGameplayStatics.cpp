@@ -146,14 +146,21 @@ void UDevToolGameplayStatics::GetClosestPointsBetweenTwoComponents(UPrimitiveCom
 	}
 }
 
-float UDevToolGameplayStatics::GetGameDuration(UWorld*World)
+void UDevToolGameplayStatics::GetGameDuration(UObject* WorldContextObject, int32&  TotalDurationSeconds,int32& Hours, int32& Minutes,
+	int32& Seconds)
 {
-	const float TotalDurationSeconds = World->GetTimeSeconds(); //- GameStartTime;
-	int32 Hours = TotalDurationSeconds / 3600;
-	//int32 Minutes = (TotalDurationSeconds / 60) % 60;
-	int32 Seconds = FMath::RoundToInt(TotalDurationSeconds) % 60;
-
-	return TotalDurationSeconds;
+	// 获取游戏从开始到现在的总秒数。
+	TotalDurationSeconds = WorldContextObject->GetWorld()->GetTimeSeconds();
+    
+	// 计算总时长中包含的完整小时数。
+	Hours = TotalDurationSeconds / 3600;
+    
+	// 计算除去完整小时后，剩余时间中包含的完整分钟数。
+	Minutes = static_cast<int32>(TotalDurationSeconds) % 3600 / 60;
+    
+	// 计算除去完整小时和完整分钟后，剩余的秒数。
+	Seconds = static_cast<int32>(TotalDurationSeconds) % 60;
 }
+
 
 

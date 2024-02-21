@@ -14,8 +14,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define MINIMAP_MiniMapBase_generated_h
 
-#define FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_SPARSE_DATA
-#define FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_RPC_WRAPPERS \
+#define FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_SPARSE_DATA
+#define FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetMaximumY); \
 	DECLARE_FUNCTION(execGetMaximumY); \
@@ -28,21 +30,8 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execSetMapCentralPosition);
 
 
-#define FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execSetMaximumY); \
-	DECLARE_FUNCTION(execGetMaximumY); \
-	DECLARE_FUNCTION(execSetMinimumY); \
-	DECLARE_FUNCTION(execGetMinimumY); \
-	DECLARE_FUNCTION(execSetMaximumX); \
-	DECLARE_FUNCTION(execGetMaximumX); \
-	DECLARE_FUNCTION(execSetMinimumX); \
-	DECLARE_FUNCTION(execGetMinimumX); \
-	DECLARE_FUNCTION(execSetMapCentralPosition);
-
-
-#define FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_ACCESSORS
-#define FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_ACCESSORS
+#define FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMiniMapBase(); \
 	friend struct Z_Construct_UClass_AMiniMapBase_Statics; \
@@ -51,30 +40,7 @@ public: \
 	DECLARE_SERIALIZER(AMiniMapBase)
 
 
-#define FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_INCLASS \
-private: \
-	static void StaticRegisterNativesAMiniMapBase(); \
-	friend struct Z_Construct_UClass_AMiniMapBase_Statics; \
-public: \
-	DECLARE_CLASS(AMiniMapBase, AActor, COMPILED_IN_FLAGS(0 | CLASS_Config), CASTCLASS_None, TEXT("/Script/MiniMap"), NO_API) \
-	DECLARE_SERIALIZER(AMiniMapBase)
-
-
-#define FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_STANDARD_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AMiniMapBase(const FObjectInitializer& ObjectInitializer); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMiniMapBase) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AMiniMapBase); \
-	DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMiniMapBase); \
-private: \
-	/** Private move- and copy-constructors, should never be used */ \
-	NO_API AMiniMapBase(AMiniMapBase&&); \
-	NO_API AMiniMapBase(const AMiniMapBase&); \
-public: \
-	NO_API virtual ~AMiniMapBase();
-
-
-#define FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMiniMapBase(AMiniMapBase&&); \
@@ -86,27 +52,17 @@ public: \
 	NO_API virtual ~AMiniMapBase();
 
 
-#define FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_13_PROLOG
-#define FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_GENERATED_BODY_LEGACY \
+#define FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_13_PROLOG
+#define FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_SPARSE_DATA \
-	FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_RPC_WRAPPERS \
-	FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_ACCESSORS \
-	FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_INCLASS \
-	FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_STANDARD_CONSTRUCTORS \
-public: \
-PRAGMA_ENABLE_DEPRECATION_WARNINGS
-
-
-#define FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_GENERATED_BODY \
-PRAGMA_DISABLE_DEPRECATION_WARNINGS \
-public: \
-	FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_SPARSE_DATA \
-	FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_ACCESSORS \
-	FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_INCLASS_NO_PURE_DECLS \
-	FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_SPARSE_DATA \
+	FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_ACCESSORS \
+	FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -114,7 +70,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> MINIMAP_API UClass* StaticClass<class AMiniMapBase>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h
+#define CURRENT_FILE_ID FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

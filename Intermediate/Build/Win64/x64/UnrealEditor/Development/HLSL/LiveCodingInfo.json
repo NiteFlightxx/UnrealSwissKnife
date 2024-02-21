@@ -1,5 +1,8 @@
 {
 	"RemapUnityFiles": 
 	{
+		"Module.HLSL.cpp.obj": [
+			"HLSL.cpp.obj"
+		]
 	}
 }

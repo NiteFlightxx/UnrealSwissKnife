@@ -1,0 +1,24 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unrealproject\\aura\\plugins\\unrealswissknife\\source\\devtoolkit\\private\\devtoolgameplaystatics.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unrealproject\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\development\\engine\\sharedpch.engine.cpp17.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "e:\\unrealproject\\aura\\plugins\\unrealswissknife\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\devtoolkit\\definitions.devtoolkit.h",
+            "e:\\unrealproject\\aura\\plugins\\unrealswissknife\\source\\devtoolkit\\public\\devtoolgameplaystatics.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\optional",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.36.32532\\include\\xsmf_control.h",
+            "e:\\unrealproject\\aura\\plugins\\unrealswissknife\\intermediate\\build\\win64\\unrealeditor\\inc\\devtoolkit\\uht\\devtoolgameplaystatics.generated.h",
+            "f:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetsystemlibrary.h",
+            "f:\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\uobject\\propertyaccessutil.h",
+            "f:\\ue_5.3\\engine\\source\\runtime\\coreuobject\\public\\assetregistry\\arfilter.h",
+            "f:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetsystemlibrary.generated.h",
+            "f:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
+            "f:\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
+            "f:\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

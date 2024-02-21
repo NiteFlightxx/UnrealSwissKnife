@@ -25,13 +25,13 @@ void EmptyLinkFunctionForGeneratedCodeMiniMap_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0xCA083BA8,
+				0xACE37EC8,
 				0xEC88C91C,
-				METADATA_PARAMS(nullptr, 0)
+				METADATA_PARAMS(0, nullptr)
 			};
 			UECodeGen_Private::ConstructUPackage(Z_Registration_Info_UPackage__Script_MiniMap.OuterSingleton, PackageParams);
 		}
 		return Z_Registration_Info_UPackage__Script_MiniMap.OuterSingleton;
 	}
-	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_MiniMap(Z_Construct_UPackage__Script_MiniMap, TEXT("/Script/MiniMap"), Z_Registration_Info_UPackage__Script_MiniMap, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xCA083BA8, 0xEC88C91C));
+	static FRegisterCompiledInInfo Z_CompiledInDeferPackage_UPackage__Script_MiniMap(Z_Construct_UPackage__Script_MiniMap, TEXT("/Script/MiniMap"), Z_Registration_Info_UPackage__Script_MiniMap, CONSTRUCT_RELOAD_VERSION_INFO(FPackageReloadVersionInfo, 0xACE37EC8, 0xEC88C91C));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -116,7 +116,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(MiniMapBase_eventGetMaximumX_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MiniMapBase_eventGetMaximumX_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::NewProp_ReturnValue,
 	};
@@ -126,7 +126,9 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "GetMaximumX", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::MiniMapBase_eventGetMaximumX_Parms), Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "GetMaximumX", nullptr, nullptr, Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::MiniMapBase_eventGetMaximumX_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_AMiniMapBase_GetMaximumX_Statics::MiniMapBase_eventGetMaximumX_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_AMiniMapBase_GetMaximumX()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -149,7 +151,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(MiniMapBase_eventGetMaximumY_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MiniMapBase_eventGetMaximumY_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::NewProp_ReturnValue,
 	};
@@ -159,7 +161,9 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "GetMaximumY", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::MiniMapBase_eventGetMaximumY_Parms), Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "GetMaximumY", nullptr, nullptr, Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::MiniMapBase_eventGetMaximumY_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_AMiniMapBase_GetMaximumY_Statics::MiniMapBase_eventGetMaximumY_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_AMiniMapBase_GetMaximumY()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -182,7 +186,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(MiniMapBase_eventGetMinimumX_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MiniMapBase_eventGetMinimumX_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::NewProp_ReturnValue,
 	};
@@ -192,7 +196,9 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "GetMinimumX", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::MiniMapBase_eventGetMinimumX_Parms), Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "GetMinimumX", nullptr, nullptr, Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::MiniMapBase_eventGetMinimumX_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_AMiniMapBase_GetMinimumX_Statics::MiniMapBase_eventGetMinimumX_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_AMiniMapBase_GetMinimumX()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -215,7 +221,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(MiniMapBase_eventGetMinimumY_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MiniMapBase_eventGetMinimumY_Parms, ReturnValue), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::NewProp_ReturnValue,
 	};
@@ -225,7 +231,9 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "GetMinimumY", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::MiniMapBase_eventGetMinimumY_Parms), Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "GetMinimumY", nullptr, nullptr, Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::MiniMapBase_eventGetMinimumY_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_AMiniMapBase_GetMinimumY_Statics::MiniMapBase_eventGetMinimumY_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_AMiniMapBase_GetMinimumY()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -248,7 +256,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::NewProp_CentralPosition = { "CentralPosition", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(MiniMapBase_eventSetMapCentralPosition_Parms, CentralPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::NewProp_CentralPosition = { "CentralPosition", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MiniMapBase_eventSetMapCentralPosition_Parms, CentralPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::NewProp_CentralPosition,
 	};
@@ -258,7 +266,9 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "SetMapCentralPosition", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::MiniMapBase_eventSetMapCentralPosition_Parms), Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "SetMapCentralPosition", nullptr, nullptr, Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::MiniMapBase_eventSetMapCentralPosition_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition_Statics::MiniMapBase_eventSetMapCentralPosition_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -281,7 +291,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::NewProp_MaxX = { "MaxX", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(MiniMapBase_eventSetMaximumX_Parms, MaxX), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::NewProp_MaxX = { "MaxX", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MiniMapBase_eventSetMaximumX_Parms, MaxX), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::NewProp_MaxX,
 	};
@@ -291,7 +301,9 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "SetMaximumX", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::MiniMapBase_eventSetMaximumX_Parms), Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "SetMaximumX", nullptr, nullptr, Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::MiniMapBase_eventSetMaximumX_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_AMiniMapBase_SetMaximumX_Statics::MiniMapBase_eventSetMaximumX_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_AMiniMapBase_SetMaximumX()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -314,7 +326,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::NewProp_MaxY = { "MaxY", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(MiniMapBase_eventSetMaximumY_Parms, MaxY), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::NewProp_MaxY = { "MaxY", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MiniMapBase_eventSetMaximumY_Parms, MaxY), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::NewProp_MaxY,
 	};
@@ -324,7 +336,9 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "SetMaximumY", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::MiniMapBase_eventSetMaximumY_Parms), Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "SetMaximumY", nullptr, nullptr, Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::MiniMapBase_eventSetMaximumY_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_AMiniMapBase_SetMaximumY_Statics::MiniMapBase_eventSetMaximumY_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_AMiniMapBase_SetMaximumY()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -347,7 +361,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::NewProp_MinX = { "MinX", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(MiniMapBase_eventSetMinimumX_Parms, MinX), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::NewProp_MinX = { "MinX", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MiniMapBase_eventSetMinimumX_Parms, MinX), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::NewProp_MinX,
 	};
@@ -357,7 +371,9 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "SetMinimumX", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::MiniMapBase_eventSetMinimumX_Parms), Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "SetMinimumX", nullptr, nullptr, Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::MiniMapBase_eventSetMinimumX_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_AMiniMapBase_SetMinimumX_Statics::MiniMapBase_eventSetMinimumX_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_AMiniMapBase_SetMinimumX()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -380,7 +396,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 #endif
 		static const UECodeGen_Private::FFunctionParams FuncParams;
 	};
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::NewProp_MinY = { "MinY", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(MiniMapBase_eventSetMinimumY_Parms, MinY), METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::NewProp_MinY = { "MinY", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(MiniMapBase_eventSetMinimumY_Parms, MinY), METADATA_PARAMS(0, nullptr) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::NewProp_MinY,
 	};
@@ -390,7 +406,9 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "SetMinimumY", nullptr, nullptr, sizeof(Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::MiniMapBase_eventSetMinimumY_Parms), Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::Function_MetaDataParams)) };
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMiniMapBase, nullptr, "SetMinimumY", nullptr, nullptr, Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::PropPointers), sizeof(Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::MiniMapBase_eventSetMinimumY_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::Function_MetaDataParams), Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_AMiniMapBase_SetMinimumY_Statics::MiniMapBase_eventSetMinimumY_Parms) < MAX_uint16);
 	UFunction* Z_Construct_UFunction_AMiniMapBase_SetMinimumY()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -456,17 +474,19 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_MiniMap,
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::DependentSingletons) < 16);
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMiniMapBase_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_AMiniMapBase_GetMaximumX, "GetMaximumX" }, // 3042971237
-		{ &Z_Construct_UFunction_AMiniMapBase_GetMaximumY, "GetMaximumY" }, // 2101671212
-		{ &Z_Construct_UFunction_AMiniMapBase_GetMinimumX, "GetMinimumX" }, // 802267590
-		{ &Z_Construct_UFunction_AMiniMapBase_GetMinimumY, "GetMinimumY" }, // 1069880227
-		{ &Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition, "SetMapCentralPosition" }, // 2886134216
-		{ &Z_Construct_UFunction_AMiniMapBase_SetMaximumX, "SetMaximumX" }, // 2286706536
-		{ &Z_Construct_UFunction_AMiniMapBase_SetMaximumY, "SetMaximumY" }, // 3863418789
-		{ &Z_Construct_UFunction_AMiniMapBase_SetMinimumX, "SetMinimumX" }, // 3541253089
-		{ &Z_Construct_UFunction_AMiniMapBase_SetMinimumY, "SetMinimumY" }, // 1853730055
+		{ &Z_Construct_UFunction_AMiniMapBase_GetMaximumX, "GetMaximumX" }, // 623152001
+		{ &Z_Construct_UFunction_AMiniMapBase_GetMaximumY, "GetMaximumY" }, // 2559137994
+		{ &Z_Construct_UFunction_AMiniMapBase_GetMinimumX, "GetMinimumX" }, // 3727951409
+		{ &Z_Construct_UFunction_AMiniMapBase_GetMinimumY, "GetMinimumY" }, // 2783206919
+		{ &Z_Construct_UFunction_AMiniMapBase_SetMapCentralPosition, "SetMapCentralPosition" }, // 2089575655
+		{ &Z_Construct_UFunction_AMiniMapBase_SetMaximumX, "SetMaximumX" }, // 2096759209
+		{ &Z_Construct_UFunction_AMiniMapBase_SetMaximumY, "SetMaximumY" }, // 2272633892
+		{ &Z_Construct_UFunction_AMiniMapBase_SetMinimumX, "SetMinimumX" }, // 1355855150
+		{ &Z_Construct_UFunction_AMiniMapBase_SetMinimumY, "SetMinimumY" }, // 311739370
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMiniMapBase_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "MiniMapBase.h" },
@@ -481,7 +501,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MiniMapComponent = { "MiniMapComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AMiniMapBase, MiniMapComponent), Z_Construct_UClass_UMiniMapComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MiniMapComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MiniMapComponent_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MiniMapComponent = { "MiniMapComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMiniMapBase, MiniMapComponent), Z_Construct_UClass_UMiniMapComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MiniMapComponent_MetaData), Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MiniMapComponent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CameraSpringArm_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -490,7 +510,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CameraSpringArm = { "CameraSpringArm", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AMiniMapBase, CameraSpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CameraSpringArm_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CameraSpringArm_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CameraSpringArm = { "CameraSpringArm", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMiniMapBase, CameraSpringArm), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CameraSpringArm_MetaData), Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CameraSpringArm_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CaptureComponent_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -499,7 +519,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CaptureComponent = { "CaptureComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AMiniMapBase, CaptureComponent), Z_Construct_UClass_USceneCaptureComponent2D_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CaptureComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CaptureComponent_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CaptureComponent = { "CaptureComponent", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMiniMapBase, CaptureComponent), Z_Construct_UClass_USceneCaptureComponent2D_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CaptureComponent_MetaData), Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CaptureComponent_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMiniMapBase_Statics::NewProp_BoundsBox_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -508,7 +528,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_BoundsBox = { "BoundsBox", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AMiniMapBase, BoundsBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_BoundsBox_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_BoundsBox_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_BoundsBox = { "BoundsBox", nullptr, (EPropertyFlags)0x00400000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMiniMapBase, BoundsBox), Z_Construct_UClass_UBoxComponent_NoRegister, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_BoundsBox_MetaData), Z_Construct_UClass_AMiniMapBase_Statics::NewProp_BoundsBox_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MapCentralPosition_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -516,7 +536,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MapCentralPosition = { "MapCentralPosition", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AMiniMapBase, MapCentralPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MapCentralPosition_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MapCentralPosition_MetaData)) };
+	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MapCentralPosition = { "MapCentralPosition", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMiniMapBase, MapCentralPosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MapCentralPosition_MetaData), Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MapCentralPosition_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumX_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -524,7 +544,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumX = { "MinimumX", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AMiniMapBase, MinimumX), METADATA_PARAMS(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumX_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumX_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumX = { "MinimumX", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMiniMapBase, MinimumX), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumX_MetaData), Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumX_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumX_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -532,7 +552,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumX = { "MaximumX", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AMiniMapBase, MaximumX), METADATA_PARAMS(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumX_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumX_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumX = { "MaximumX", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMiniMapBase, MaximumX), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumX_MetaData), Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumX_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumY_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -540,7 +560,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumY = { "MinimumY", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AMiniMapBase, MinimumY), METADATA_PARAMS(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumY_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumY_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumY = { "MinimumY", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMiniMapBase, MinimumY), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumY_MetaData), Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MinimumY_MetaData) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumY_MetaData[] = {
 		{ "AllowPrivateAccess", "true" },
@@ -548,7 +568,7 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		{ "ModuleRelativePath", "Public/MiniMapBase.h" },
 	};
 #endif
-	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumY = { "MaximumY", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AMiniMapBase, MaximumY), METADATA_PARAMS(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumY_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumY_MetaData)) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumY = { "MaximumY", nullptr, (EPropertyFlags)0x0040000000000005, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(AMiniMapBase, MaximumY), METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumY_MetaData), Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MaximumY_MetaData) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMiniMapBase_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMiniMapBase_Statics::NewProp_MiniMapComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMiniMapBase_Statics::NewProp_CameraSpringArm,
@@ -576,8 +596,9 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 		UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::PropPointers),
 		0,
 		0x009000A4u,
-		METADATA_PARAMS(Z_Construct_UClass_AMiniMapBase_Statics::Class_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::Class_MetaDataParams))
+		METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::Class_MetaDataParams), Z_Construct_UClass_AMiniMapBase_Statics::Class_MetaDataParams)
 	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AMiniMapBase_Statics::PropPointers) < 2048);
 	UClass* Z_Construct_UClass_AMiniMapBase()
 	{
 		if (!Z_Registration_Info_UClass_AMiniMapBase.OuterSingleton)
@@ -592,15 +613,15 @@ void EmptyLinkFunctionForGeneratedCodeMiniMapBase() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMiniMapBase);
 	AMiniMapBase::~AMiniMapBase() {}
-	struct Z_CompiledInDeferFile_FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_Statics
+	struct Z_CompiledInDeferFile_FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMiniMapBase, AMiniMapBase::StaticClass, TEXT("AMiniMapBase"), &Z_Registration_Info_UClass_AMiniMapBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMiniMapBase), 1455254053U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AMiniMapBase, AMiniMapBase::StaticClass, TEXT("AMiniMapBase"), &Z_Registration_Info_UClass_AMiniMapBase, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMiniMapBase), 2693339239U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_2901354029(TEXT("/Script/MiniMap"),
-		Z_CompiledInDeferFile_FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_NiteFlight_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_935815963(TEXT("/Script/MiniMap"),
+		Z_CompiledInDeferFile_FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Aura_Plugins_UnrealSwissKnife_Source_MiniMap_Public_MiniMapBase_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

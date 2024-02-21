@@ -1,0 +1,15 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "e:\\unrealproject\\aura\\plugins\\unrealswissknife\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hlsl\\module.hlsl.cpp",
+        "ProvidedModule": "",
+        "PCH": "e:\\unrealproject\\aura\\intermediate\\build\\win64\\x64\\auraeditor\\development\\engine\\sharedpch.engine.cpp17.inclorderunreal5_0.h.pch",
+        "Includes": [
+            "e:\\unrealproject\\aura\\plugins\\unrealswissknife\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\hlsl\\definitions.hlsl.h",
+            "e:\\unrealproject\\aura\\plugins\\unrealswissknife\\source\\hlsl\\private\\hlsl.cpp",
+            "e:\\unrealproject\\aura\\plugins\\unrealswissknife\\source\\hlsl\\public\\hlsl.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
